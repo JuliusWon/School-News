@@ -1,0 +1,42 @@
+.button {
+  font-family:"Iosevka";
+  background-color: #FFFFFF;
+  color: #19a5d2;
+  border-radius: 3px;
+  padding: 16px;
+  font-size: 16px;
+  border-color:#19a5d2;
+  border-width: 2px;
+}
+.button:hover {
+	background-color:#19a5d2;
+	color:#FFFFFF;
+	border-color:#2222FF;
+}
+body {
+	background-color: #FFFFFF;
+	text-align: center;
+	/* display: flex; */
+    align-items: center;
+    justify-content: center;
+}
+
+.Heading {
+	font-size: 400%;
+	color: #19a5d2;
+}
+.TextNorm{
+	font-size: large;
+	color:#19a5d2;
+}
+.article{
+	overflow:show;
+    align-items: center;
+    justify-content: center;
+}
+.iframe-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
